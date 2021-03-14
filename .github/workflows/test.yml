@@ -4,6 +4,5 @@ jobs:
     check-bats-version:
         runs-on: ubuntu-latest
         steps:
-            - run: bats -v
             - run: ls -la
             - run: pwd
